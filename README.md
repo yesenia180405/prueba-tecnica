@@ -1,2 +1,58 @@
-# prueba-tecnica
-🟣 Prueba técnica frontend | Portfolio con Nuxt.js, Vue.js y TypeScript
+# 🟣 Portfolio Personal
+
+Portfolio personal desarrollado como prueba técnica frontend, construido con **Nuxt.js**, **Vue.js** y **TypeScript**.
+
+## 🚀 Tech Stack
+
+- [Nuxt.js](https://nuxt.com/) — Framework SSR/SPA
+- [Vue.js 3](https://vuejs.org/) — Framework UI con Composition API
+- [TypeScript](https://www.typescriptlang.org/) — Tipado estático
+- CSS3 — Estilos personalizados con variables y animaciones
+
+## 📋 Descripción
+
+Aplicación web de una sola página (SPA) que muestra mi perfil profesional como desarrollador frontend. El proyecto incluye secciones de presentación, habilidades técnicas, proyectos y contacto.
+
+Desarrollado con especial atención a la **organización de componentes**, **buenas prácticas de Vue** y una interfaz visual atractiva en tonos morados.
+
+## 🛠️ Instalación y uso
+
+```bash
+# Clonar el repositorio
+git clone git@github.com:yesenia180405/prueba-tecnica.git
+
+# Instalar dependencias
+npm install
+
+# Iniciar servidor de desarrollo
+npm run dev
+
+# Compilar para producción
+npm run build
+
+# Creación de la estructura del proyecto
+cd app
+mkdir -p assets components composables layouts middleware pages plugins public server/api stores
+```
+
+## 📁 Estructura del proyecto
+
+```
+├── components/       # Componentes reutilizables de Vue
+├── pages/            # Páginas de la aplicación
+├── assets/           # Estilos globales e imágenes
+├── public/           # Archivos estáticos
+└── app.vue           # Componente raíz
+```
+
+## ✨ Características
+
+- Diseño responsive adaptado a móvil, tablet y escritorio
+- Navegación suave entre secciones
+- Componentes reutilizables y bien estructurados
+- Tipado con TypeScript para mayor robustez del código
+
+## 📬 Contacto
+
+- GitHub: [@tu-usuario](https://github.com/tu-usuario)
+- LinkedIn: [Tu Nombre](https://linkedin.com/in/tu-perfil)
