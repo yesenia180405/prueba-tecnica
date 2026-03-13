@@ -1,5 +1,5 @@
 <template>
   <div class="font-inter">
-    <NuxtPage />
+    <TheNavbar />
   </div>
 </template>
