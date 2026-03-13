@@ -1,5 +1,5 @@
 <template>
-  <div>
-    <TheNavbar/>
+  <div class="font-inter">
+    <TheNavbar />
   </div>
 </template>
