@@ -1,3 +1,4 @@
+<script setup></script>
 <template>
-  <div class="font-inter">Texto de ejemplo</div>
+  <TheHero />
 </template>
