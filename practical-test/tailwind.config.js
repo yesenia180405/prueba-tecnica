@@ -6,7 +6,8 @@ export default {
       colors: {
         'home-text': 'rgb(193,158,229)',
         'home-underline': 'rgb(147,51,234)',
-        'home-navbar': 'rgba(22,15,42,0.9)',
+        'home-navbar': 'rgba(26,11,51,0.9)',
+        'footer-b': 'rgb(26, 11, 51)',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
