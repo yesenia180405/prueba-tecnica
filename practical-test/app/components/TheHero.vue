@@ -8,7 +8,7 @@
     >
       PORTFOLIO
     </p>
-    <h1 class="text-9xl font-bold flex flex-col">
+    <h1 class="text-5xl md:text-7xl lg:text-9xl font-bold flex flex-col">
       YESENIA <span class="text-[rgb(161,74,243)] mt-4">TORO</span>
     </h1>
     <p class="text-[rgb(199,189,215)] text-xl my-9">Descirpcion</p>
