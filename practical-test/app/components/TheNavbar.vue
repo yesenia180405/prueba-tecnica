@@ -1,7 +1,7 @@
 <script setup></script>
 <template>
   <nav
-    class="flex items-center justify-between bg-home-navbar w-full sticky top-0 tracking-widest"
+    class="flex items-center justify-between bg-home-navbar w-full fixed tracking-widest"
   >
     <img
       src="https://images.vexels.com/media/users/3/135535/isolated/preview/b79e409078ebfbc02e8615b2ed5938c6-icono-de-mariposa.png?w=360"
