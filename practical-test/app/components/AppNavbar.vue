@@ -9,8 +9,8 @@ const links = [
 </script>
 <template>
   <nav
-    class="text-white flex items-center justify-between bg-home-navbar w-full fixed tracking-widest px-6 md:px-20 lg:px-40"
-    aria-label="Página e inicio">
+    class="text-white flex items-center justify-between bg-home-navbar w-full fixed tracking-widest px-6 md:px-20 lg:px-40 z-50"
+    aria-label="Página de inicio">
 
     <NuxtLink to="/" aria-label="Inicio">
       <img
@@ -19,7 +19,7 @@ const links = [
     </NuxtLink>
 
     <!-- Links en desktop -->
-    <ul class="hidden md:flex font-semibold gap-6 list-none hover:underline decoration-2 decoration-home-underline underline-offset-8  hover:text-home-text">
+    <ul class="hidden md:flex font-semibold gap-6 list-none hover:underline decoration-2 decoration-home-underline underline-offset-8 z-50 hover:text-home-text">
       <li v-for="link in links" :key="link.to">
         <NuxtLink :to="link.to"
           class="pr-6 hover:underline decoration-2 decoration-home-underline underline-offset-8  hover:text-home-text"
