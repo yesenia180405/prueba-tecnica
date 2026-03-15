@@ -1,10 +1,10 @@
 // app.vue
 <template>
   <section class="font-inter min-h-screen flex flex-col">
-    <TheNavbar />
+    <AppNavbar />
     <main class="flex-1">
       <NuxtPage />
     </main>
-    <TheFooter />
+    <AppFooter />
   </section>
 </template>

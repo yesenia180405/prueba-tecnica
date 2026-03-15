@@ -10,7 +10,7 @@ const links = [
 <template>
   <nav
     class="text-white flex items-center justify-between bg-home-navbar w-full fixed tracking-widest px-6 md:px-20 lg:px-40"
-    aria-label="Página e inicio">
+    aria-label="Página de inicio">
 
     <NuxtLink to="/" aria-label="Inicio">
       <img

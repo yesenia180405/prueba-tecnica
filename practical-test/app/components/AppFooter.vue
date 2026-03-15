@@ -11,12 +11,12 @@
       />
 
       <div class="flex justify-center items-center gap-6 md:flex-row">
-        <NuxtLink to="#" class="hover:text-home-text">Instagram</NuxtLink>
-        <NuxtLink to="#" class="hover:text-home-text">X</NuxtLink>
-        <NuxtLink to="#" class="hover:text-home-text">Discord</NuxtLink>
+        <NuxtLink to="#" class="hover:text-home-text" aria-label="Instagram">Instagram</NuxtLink>
+        <NuxtLink to="#" class="hover:text-home-text" aria-label="X">X</NuxtLink>
+        <NuxtLink to="#" class="hover:text-home-text" aria-label="Discord">Discord</NuxtLink>
       </div>
 
-      <p class="md:text-right md:mr-10 my-5 mx-5 ">
+      <p class="md:text-right md:mr-10 my-5 mx-5 " aria-label="Creative Commons">
         © 2026 Yesenia Toro. Todos los derechos reservados.
       </p>
     </section>

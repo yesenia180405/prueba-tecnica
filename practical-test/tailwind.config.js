@@ -11,6 +11,9 @@ export default {
         'footer-text': 'rgb(117,108,132)',
         'hero-bg': 'rgb(59, 34, 106)',
         'button-hover': 'rgb(216, 180, 254)',
+        'about-bg': 'rgb(243, 232, 255)',
+        'hero-last': 'rgb(161,74,243)',
+        'about-text': 'rgb(112, 73, 172)',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
