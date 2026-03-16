@@ -9,7 +9,7 @@ const props = defineProps({
 </script>
 <template>
   <section
-    class="group flex flex-col border border-gray-200 m-5 rounded-3xl bg-card-bg w-[30em] hover:border-card-underline hover:shadow-[0_0_14px_rgb(215,201,218)] overflow-hidden"
+    class="group flex flex-col border border-gray-200 mb-5 rounded-3xl bg-card-bg md:w-[30em] hover:border-card-underline hover:shadow-[0_0_14px_rgb(215,201,218)] overflow-hidden h-full"
   >
     <div class="overflow-hidden">
       <img
@@ -26,7 +26,7 @@ const props = defineProps({
         classT="bg-card-tags p-1 rounded mb-5 text-xs text-purple-400"
       />
     </div>
-    <div class="px-7 pb-7">
+    <div class="md:px-7 md:pb-7 p-6 pb-7 just">
       <h2
         aria-label="Título del proyecto"
         class="text-2xl font-bold text-project-text pb-4"
