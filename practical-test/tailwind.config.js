@@ -14,6 +14,8 @@ export default {
         'about-bg': 'rgb(243, 232, 255)',
         'hero-last': 'rgb(161,74,243)',
         'about-text': 'rgb(112, 73, 172)',
+        'project-bg': 'rgb(245, 243, 255)',
+        'project-text': 'rgb(76, 29, 149)',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],

@@ -1,5 +1,6 @@
 <script setup></script>
 <template>
-    <AppHero />
-    <AppAbout />
+  <AppHero />
+  <AppAbout />
+  <AppProjects />
 </template>
