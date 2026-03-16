@@ -14,6 +14,13 @@ export default {
         'about-bg': 'rgb(243, 232, 255)',
         'hero-last': 'rgb(161,74,243)',
         'about-text': 'rgb(112, 73, 172)',
+        'project-bg': 'rgb(245, 243, 255)',
+        'project-text': 'rgb(76, 29, 149)',
+        'card-bg': 'rgb(250, 248, 255)',
+        'card-underline': 'rgb(244, 178, 214)',
+        'card-tags': 'rgb(229, 209, 251)',
+        'card-text': 'rgb(127, 94, 181)',
+        'link-text': 'rgb(216, 180, 254)',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],
