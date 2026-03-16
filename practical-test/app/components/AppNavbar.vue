@@ -2,8 +2,8 @@
 const menu = ref(false)
 const links = [
   { to: '/', label: 'INICIO' },
-  { to: '#', label: 'SOBRE MÍ' },
-  { to: '#', label: 'PROYECTOS' },
+  { to: '#about', label: 'SOBRE MÍ' },
+  { to: '#projects', label: 'PROYECTOS' },
   { to: '#', label: 'CONTACTO' },
 ]
 </script>
