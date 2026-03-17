@@ -10,7 +10,8 @@
     "eslint": "^10.0.3",
     "husky": "^9.1.7",
     "lint-staged": "^16.3.3",
-    "prettier": "^3.8.1"
+    "prettier": "^3.8.1",
+    "vite-svg-loader": "^5.1.1"
   },
   "lint-staged": {
     "practical-test/**/*.{js,ts,vue}": [

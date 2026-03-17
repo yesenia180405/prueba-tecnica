@@ -1,12 +1,12 @@
 <script setup>
 const props = defineProps({
-  icono: String,
+  icono: [Object, Function],
   label: String,
 })
 </script>
 <template>
   <section class="bg-card-bg">
-    <img :src="props.icono" :alt="props.label" />
+    <component :is="props.icono" class="text-link-text" />
     <p>{{ props.label }}</p>
   </section>
 </template>
