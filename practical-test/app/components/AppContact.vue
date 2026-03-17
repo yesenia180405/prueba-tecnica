@@ -4,9 +4,21 @@ import linkedin from '../assets/img/linkedin.svg'
 import github from '../assets/img/github.svg'
 
 const contact = [
-  { icon: mail, descripcion: 'yes.ale1804@gmail.com' },
-  { icon: linkedin, descripcion: 'LinkedIn' },
-  { icon: github, descripcion: 'GitHub' },
+  {
+    icon: mail,
+    descripcion: 'yes.ale1804@gmail.com',
+    link: 'https://mail.google.com/mail/?view=cm&to=yes.ale1804@gmail.com',
+  },
+  {
+    icon: linkedin,
+    descripcion: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/yeseniatoro',
+  },
+  {
+    icon: github,
+    descripcion: 'GitHub',
+    link: 'https://github.com/yesenia180405',
+  },
 ]
 </script>
 
@@ -26,7 +38,7 @@ const contact = [
         :key="info"
         class="flex flex-col items-center gap-2"
       >
-        <a href="#" class="flex flex-col items-center">
+        <a :href="info.link" target="_blank" class="flex flex-col items-center">
           <div
             class="h-14 w-14 flex items-center justify-center border bg-purple-100 rounded-full"
           >
