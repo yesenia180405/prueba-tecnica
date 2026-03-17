@@ -4,4 +4,5 @@
   <AppAbout id="about" class="scroll-mt-44" />
   <AppProjects id="projects" class="scroll-mt-24" />
   <AppSkills />
+  <AppContact />
 </template>

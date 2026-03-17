@@ -1,0 +1,40 @@
+<script setup>
+import mail from '../assets/img/mail.svg'
+import linkedin from '../assets/img/linkedin.svg'
+import github from '../assets/img/github.svg'
+
+const contact = [
+  { icon: mail, descripcion: 'yes.ale1804@gmail.com' },
+  { icon: linkedin, descripcion: 'LinkedIn' },
+  { icon: github, descripcion: 'GitHub' },
+]
+</script>
+
+<template>
+  <section class="bg-project-bg min-h-[50vw] text-center">
+    <h2 aria-label="¿Tienes un Proyecto?" class="pt-28 font-bold text-5xl">
+      <span class="text-project-text">¿Tienes un </span>
+      <span class="text-hero-last"> Proyecto?</span>
+    </h2>
+    <p class="pt-7 text-xl pb-14 text-about-text">
+      Estoy interesada en colaborar o formar parte de tu equipo.
+    </p>
+
+    <section class="flex justify-around text-center w-[50vw] mx-auto">
+      <div
+        v-for="info in contact"
+        :key="info"
+        class="flex flex-col items-center gap-2"
+      >
+        <a href="#" class="flex flex-col items-center">
+          <div
+            class="h-14 w-14 flex items-center justify-center border bg-purple-100 rounded-full"
+          >
+            <component :is="info.icon" class="h-8 w-8 text-link-text" />
+          </div>
+          <h3 class="pt-5">{{ info.descripcion }}</h3>
+        </a>
+      </div>
+    </section>
+  </section>
+</template>

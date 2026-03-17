@@ -27,6 +27,7 @@ const skills = [
     </h2>
     <div class="grid grid-cols-2 md:grid-cols-6 gap-8">
       <AppCardSkill
+        aria-label="Stack Tecnológico"
         v-for="skill in skills"
         :key="skill.label"
         :icono="skill.icono"
