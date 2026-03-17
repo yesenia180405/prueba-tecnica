@@ -16,13 +16,16 @@ const skills = [
 </script>
 <template>
   <section
-    class="bg-about-bg min-h-[40vh] flex items-center"
+    class="bg-about-bg min-h-[50vh] flex flex-col items-center justify-center"
     aria-label="Skills"
   >
-    <h2 class="tracking-wider" aria-label="Stack Tecnológico">
+    <h2
+      class="tracking-wider font-semibold text-project-text text+center"
+      aria-label="Stack Tecnológico"
+    >
       STACK TECNOLÓGICO
     </h2>
-    <div>
+    <div class="flex items-center gap-7">
       <AppCardSkill
         v-for="skill in skills"
         :key="skill.label"
