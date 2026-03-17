@@ -58,8 +58,15 @@ mkdir -p assets components composables layouts middleware pages plugins public s
 - LinkedIn: [Tu Nombre](https://linkedin.com/in/tu-perfil)
 
 ## Medidas de interes en Tailwind
+
 - sm: — 640px en adelante (móvil grande)
 - md: — 768px en adelante (tablet)
 - lg: — 1024px en adelante (escritorio pequeño)
 - xl: — 1280px en adelante (escritorio)
 - 2xl: — 1536px en adelante (pantalla grande)
+
+## Instlación para los íconos
+
+```bash
+npm install -D vite-svg-loader
+```
