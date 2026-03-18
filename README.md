@@ -65,8 +65,16 @@ mkdir -p assets components composables layouts middleware pages plugins public s
 - xl: — 1280px en adelante (escritorio)
 - 2xl: — 1536px en adelante (pantalla grande)
 
-## Instlación para los íconos
+## Instalación para los íconos
 
 ```bash
 npm install -D vite-svg-loader
 ```
+
+## Para el envio del formulario
+- El proyecto utiliza Formspree para gestionar el envío de emails del formulario de contacto sin necesidad de backend.
+
+### Setup
+- Crear cuenta en formspree.io y obtener el endpoint del formulario.
+- Añadir la variable de entorno:
+- Y finalmente implementar.

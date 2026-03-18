@@ -21,6 +21,8 @@ export default {
         'card-tags': 'rgb(229, 209, 251)',
         'card-text': 'rgb(127, 94, 181)',
         'link-text': 'rgb(216, 180, 254)',
+        'form-text': 'rgb(181, 163, 213)',
+        'button-color': 'rgb(130, 37, 211)',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],

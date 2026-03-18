@@ -16,14 +16,17 @@ const skills = [
       class="w-[19rem] h-[26rem] rounded-2xl object-cover shadow-[0_0_54px_rgb(147,51,234)] mt-10"
     />
     <section class="md:py-40 mt-5 px-8">
-      <h2 class="text-3xl font-semibold pb-7">
+      <h2
+        class="text-3xl font-semibold pb-7"
+        aria-label="Uniendo Diseño y Código"
+      >
         <span class="text-project-text">Uniendo </span>
         <span class="text-button-hover"> Diseño </span>
         <span class="text-hero-bg"> y</span>
         <span class="text-hero-last"> Código </span>
       </h2>
 
-      <p class="text-lg text-about-text">
+      <p class="text-lg text-about-text" aria-label="Sobre mí">
         Con más de 5 años de experiencia, transformo ideas complejas en
         interfaces intuitivas y arquitecturas robustas. Me apasiona el
         minimalismo, el rendimiento y la atención obsesiva al detalle.
