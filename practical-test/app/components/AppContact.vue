@@ -44,7 +44,7 @@ const contact = [
           >
             <component :is="info.icon" class="h-8 w-8 text-link-text" />
           </div>
-          <h3 class="pt-5">{{ info.descripcion }}</h3>
+          <h3 class="pt-5 text-project-text">{{ info.descripcion }}</h3>
         </a>
       </div>
     </section>
