@@ -37,19 +37,21 @@ const contact = [
       Estoy interesada en colaborar o formar parte de tu equipo.
     </p>
 
-    <section class="md:flex md:justify-around text-center md:w-[50vw] mx-auto">
-      <div
-        v-for="info in contact"
-        :key="info"
-        class="flex flex-col items-center mb-7"
-      >
+    <section
+      class="grid grid-cols-3 md:flex md:justify-around text-center md:w-[50vw] mx-auto"
+    >
+      <div v-for="info in contact" :key="info" class="px-10 md:px-0">
         <a :href="info.link" target="_blank" class="flex flex-col items-center">
           <div
-            class="h-14 w-14 flex items-center justify-center border bg-purple-100 rounded-full"
+            class="md:h-14 md:w-14 h-12 w-12 flex items-center justify-center border bg-purple-100 rounded-full"
           >
             <component :is="info.icon" class="h-8 w-8 text-link-text" />
           </div>
-          <h3 class="pt-5 text-project-text">{{ info.descripcion }}</h3>
+          <h3
+            class="text-sm md:text-base pt-5 text-project-text hidden sm:block md:block"
+          >
+            {{ info.descripcion }}
+          </h3>
         </a>
       </div>
     </section>
