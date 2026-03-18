@@ -23,8 +23,13 @@ const contact = [
 </script>
 
 <template>
-  <section class="bg-project-bg min-h-[50vw] text-center">
-    <h2 aria-label="¿Tienes un Proyecto?" class="pt-28 font-bold text-5xl">
+  <section
+    class="bg-project-bg min-h-[50vw] text-center flex flex-col items-center px-6"
+  >
+    <h2
+      aria-label="¿Tienes un Proyecto?"
+      class="pt-28 font-bold text-5xl flex md:flex-row flex-col gap-5"
+    >
       <span class="text-project-text">¿Tienes un </span>
       <span class="text-hero-last"> Proyecto?</span>
     </h2>
@@ -32,11 +37,11 @@ const contact = [
       Estoy interesada en colaborar o formar parte de tu equipo.
     </p>
 
-    <section class="flex justify-around text-center w-[50vw] mx-auto">
+    <section class="md:flex md:justify-around text-center md:w-[50vw] mx-auto">
       <div
         v-for="info in contact"
         :key="info"
-        class="flex flex-col items-center gap-2"
+        class="flex flex-col items-center mb-7"
       >
         <a :href="info.link" target="_blank" class="flex flex-col items-center">
           <div
@@ -48,7 +53,7 @@ const contact = [
         </a>
       </div>
     </section>
-    <div class="flex justify-center mx-auto mt-16 w-[47vw]">
+    <div class="flex justify-center mx-auto mt-10 md:w-[47vw] mb-16">
       <AppForm />
     </div>
   </section>
