@@ -4,7 +4,7 @@ const links = [
   { to: '/', label: 'INICIO' },
   { to: '#about', label: 'SOBRE MÍ' },
   { to: '#projects', label: 'PROYECTOS' },
-  { to: '#', label: 'CONTACTO' },
+  { to: '#contact', label: 'CONTACTO' },
 ]
 </script>
 <template>

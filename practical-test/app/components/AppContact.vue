@@ -1,7 +1,7 @@
 <script setup>
-import mail from '../assets/img/mail.svg'
-import linkedin from '../assets/img/linkedin.svg'
-import github from '../assets/img/github.svg'
+import mail from '../assets/icons/mail.svg'
+import linkedin from '../assets/icons/linkedin.svg'
+import github from '../assets/icons/github.svg'
 
 const contact = [
   {
