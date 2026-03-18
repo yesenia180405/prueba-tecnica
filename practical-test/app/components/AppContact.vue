@@ -48,5 +48,8 @@ const contact = [
         </a>
       </div>
     </section>
+    <div class="flex justify-center mx-auto mt-16 w-[47vw]">
+      <AppForm />
+    </div>
   </section>
 </template>
