@@ -53,7 +53,7 @@ const contact = [
         </a>
       </div>
     </section>
-    <div class="flex justify-center mx-auto mt-10 md:w-[47vw] mb-16">
+    <div class="flex justify-center mx-auto mt-10 md:w-[47vw] mb-16 w-full">
       <AppForm />
     </div>
   </section>

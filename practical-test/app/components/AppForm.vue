@@ -23,18 +23,21 @@ const submit = async () => {
   <section
     class="w-full border border-pink-100 rounded-3xl p-10 bg-card-bg shadow"
   >
-    <form @submit.prevent="submit" class="grid grid-cols-2 gap-7 text-left">
+    <form
+      @submit.prevent="submit"
+      class="flex flex-col md:grid md:grid-cols-2 gap-7 text-left"
+    >
       <div class="flex flex-col">
         <h3 class="font-semibold pb-3 text-sm text-project-text">NOMBRE</h3>
         <input
           v-model="form.name"
           placeholder="John Doe"
           required
-          class="p-3 rounded-lg placeholder:text-form-text border focus:border-hero-last focus:outline-none focus:border-2"
+          class="p-3 rounded-lg w-full placeholder:text-form-text border focus:border-hero-last focus:outline-none focus:border-2"
         />
       </div>
 
-      <div>
+      <div class="flex flex-col">
         <h3 class="font-semibold pb-3 text-sm text-project-text">EMAIL</h3>
         <input
           v-model="form.email"
@@ -45,7 +48,7 @@ const submit = async () => {
         />
       </div>
 
-      <div class="col-span-2 flex flex-col">
+      <div class="md:col-span-2 flex flex-col">
         <h3 class="font-semibold pb-3 text-sm text-project-text">MENSAJE</h3>
         <textarea
           v-model="form.message"
@@ -59,7 +62,7 @@ const submit = async () => {
       <AppButton
         type="submit"
         :disabled="loading"
-        styles="w-full rounded-lg bg-purple-500 col-span-2 p-4"
+        styles="w-full rounded-lg bg-purple-500 md:col-span-2 p-4"
       >
         {{ loading ? 'Enviando...' : 'Enviar' }}
       </AppButton>
