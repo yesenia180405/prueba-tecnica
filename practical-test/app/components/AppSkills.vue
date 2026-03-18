@@ -6,12 +6,20 @@ import javascript from '../assets/img/javascript.svg'
 import htmlIcon from '../assets/img/html_.svg'
 import bootstrap from '../assets/img/bootstrap.svg'
 const skills = [
-  { icono: java, label: 'Java' },
-  { icono: mysql, label: 'MySQL' },
-  { icono: laravel, label: 'Laravel' },
-  { icono: javascript, label: 'JavaScipt' },
-  { icono: htmlIcon, label: 'HTML' },
-  { icono: bootstrap, label: 'Bootstrap' },
+  { icono: java, label: 'Java', link: 'https://www.java.com/es/' },
+  { icono: mysql, label: 'MySQL', link: 'https://www.mysql.com/' },
+  { icono: laravel, label: 'Laravel', link: 'https://laravel.com/' },
+  {
+    icono: javascript,
+    label: 'JavaScipt',
+    link: 'https://developer.mozilla.org/es/docs/Web/JavaScript',
+  },
+  {
+    icono: htmlIcon,
+    label: 'HTML',
+    link: 'https://developer.mozilla.org/es/docs/Web/HTML',
+  },
+  { icono: bootstrap, label: 'Bootstrap', link: 'https://getbootstrap.com/' },
 ]
 </script>
 <template>
@@ -30,6 +38,7 @@ const skills = [
         aria-label="Stack Tecnológico"
         v-for="skill in skills"
         :key="skill.label"
+        :link="skill.link"
         :icono="skill.icono"
         :label="skill.label"
       />
