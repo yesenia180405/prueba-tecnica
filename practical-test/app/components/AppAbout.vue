@@ -1,10 +1,6 @@
 <script setup>
-const skills = [
-  // Hacer componente etiquetas
-  { id: 1, text: 'Frontend' },
-  { id: 2, text: 'Backend' },
-  { id: 3, text: 'UI/UX Design' },
-]
+import data from '../assets/data/skills.json'
+const skills = data.about
 </script>
 <template>
   <section
