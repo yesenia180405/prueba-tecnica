@@ -12,12 +12,12 @@
       "link": "https://www.java.com/es/"
     },
     {
-      "icono": "icons/mysql.svg",
+      "icono": "/icons/mysql.svg",
       "label": "MySQL",
       "link": "https://www.mysql.com/"
     },
     {
-      "icono": "/icons/laravel.svg'",
+      "icono": "/icons/laravel.svg",
       "label": "Laravel",
       "link": "https://laravel.com/"
     },
