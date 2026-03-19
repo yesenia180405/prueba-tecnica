@@ -12,8 +12,19 @@ const submit = async () => {
       body: JSON.stringify(form.value),
     })
     success.value = res.ok
+
+    if (res.ok) {
+      form.value = { name: '', email: '', message: '' }
+      success.value = true
+      setTimeout(() => {
+        success.value = false
+      }, 3000)
+    }
   } catch {
     error.value = true
+    setTimeout(() => {
+      error.value = false
+    }, 3000)
   } finally {
     loading.value = false
   }

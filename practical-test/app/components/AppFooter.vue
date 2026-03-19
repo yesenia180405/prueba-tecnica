@@ -1,5 +1,5 @@
 <script setup>
-import data from '../assets/data/socialMedia.json'
+import data from '../data/socialMedia.json'
 const rrss = data.footer
 const svgContents = ref([])
 onMounted(async () => {

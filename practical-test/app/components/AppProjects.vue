@@ -1,5 +1,5 @@
 <script setup>
-import proyectos from '../assets/data/projects.json'
+import proyectos from '../data/projects.json'
 </script>
 <template>
   <section
