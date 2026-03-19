@@ -1,26 +1,6 @@
 <script setup>
-import java from '../assets/icons/java.svg'
-import mysql from '../assets/icons/mysql.svg'
-import laravel from '../assets/icons/laravel.svg'
-import javascript from '../assets/icons/javascript.svg'
-import htmlIcon from '../assets/icons/html_.svg'
-import bootstrap from '../assets/icons/bootstrap.svg'
-const skills = [
-  { icono: java, label: 'Java', link: 'https://www.java.com/es/' },
-  { icono: mysql, label: 'MySQL', link: 'https://www.mysql.com/' },
-  { icono: laravel, label: 'Laravel', link: 'https://laravel.com/' },
-  {
-    icono: javascript,
-    label: 'JavaScipt',
-    link: 'https://developer.mozilla.org/es/docs/Web/JavaScript',
-  },
-  {
-    icono: htmlIcon,
-    label: 'HTML',
-    link: 'https://developer.mozilla.org/es/docs/Web/HTML',
-  },
-  { icono: bootstrap, label: 'Bootstrap', link: 'https://getbootstrap.com/' },
-]
+import data from '../assets/data/skills.json'
+const skills = data.stack
 </script>
 <template>
   <section
