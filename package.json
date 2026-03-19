@@ -21,5 +21,9 @@
     "practical-test/**/*.{css,scss}": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.11.3",
+    "pinia": "^3.0.4"
   }
 }

@@ -1,5 +1,5 @@
 <script setup>
-import data from '../assets/data/skills.json'
+import data from '../data/skills.json'
 const skills = data.about
 </script>
 <template>
