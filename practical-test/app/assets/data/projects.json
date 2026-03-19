@@ -1,0 +1,23 @@
+[
+  {
+    "img": "/img/serena.png",
+    "tags": ["JavaScript", "NodeJS", "Tailwind CSS"],
+    "name": "Serena",
+    "description": "A free web-based platform providing psychological support for students, accessible online through digital tools and professional guidance.",
+    "link": "https://proyectoserena.vercel.app/login"
+  },
+  {
+    "img": "/img/notasApp.png",
+    "tags": ["JavaScript", "HTML", "CSS"],
+    "name": "Smart Board",
+    "description": "A Single Page Application (SPA) for creating, filtering, and persisting notes and reminders using Web Storage, featuring auxiliary window support and dynamic DOM manipulation.",
+    "link": "https://github.com/Jhonttt/dwec-u3-notasapp-atahona-toro.git"
+  },
+  {
+    "img": "/img/serena.png",
+    "tags": ["Angular", "Laravel", "Bootstrap"],
+    "name": "Project repository",
+    "description": "A full-stack platform featuring an admin dashboard, user authentication, deployment on a live server, and database integration, designed to efficiently manage application data.",
+    "link": "https://github.com/Jhonttt/proyecto-intermodular.git"
+  }
+]
