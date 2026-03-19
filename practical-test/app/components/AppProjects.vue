@@ -7,23 +7,23 @@ const proyectos = [
     tags: ['JavaScript', 'NodeJS', 'Tailwind CSS'],
     name: 'Serena',
     description:
-      'Plataforma web gratuita de apoyo psicológico para estudiantes, disponible en línea mediante herramientas digitales y acompañamiento profesional.',
+      'A free web-based platform providing psychological support for students, accessible online through digital tools and professional guidance.',
     link: 'https://proyectoserena.vercel.app/login',
   },
   {
     img: notasApp,
     tags: ['JavaScript', 'HTML', 'CSS'],
-    name: 'Tablón Inteligente TPI',
+    name: 'Smart Board',
     description:
-      'Aplicación web SPA que permite crear, filtrar y persistir notas/recordatorios mediante Web Storage, con soporte de ventana auxiliar, y control dinámico del DOM.',
+      'A Single Page Application (SPA) for creating, filtering, and persisting notes and reminders using Web Storage, featuring auxiliary window support and dynamic DOM manipulation.',
     link: 'https://github.com/Jhonttt/dwec-u3-notasapp-atahona-toro.git',
   },
   {
     img: serena,
     tags: ['Angular', 'Laravel', 'Bootstrap'],
-    name: 'Repositorio de proyectos',
+    name: 'Project repository',
     description:
-      'Plataforma full-stack con panel de administración, autenticación de usuarios, despliegue en servidor real e integración base de datos.',
+      'A full-stack platform featuring an admin dashboard, user authentication, deployment on a live server, and database integration, designed to efficiently manage application data.',
     link: 'https://github.com/Jhonttt/proyecto-intermodular.git',
   },
 ]
@@ -40,8 +40,8 @@ const proyectos = [
       aria-label="Proyectos"
       class="text-4xl font-bold tracking-wider pb-7 md:pl-28"
     >
-      <span class="text-project-text">Proyectos </span
-      ><span class="text-home-underline"> Destacados</span>
+      <span class="text-project-text">Featured </span
+      ><span class="text-home-underline"> Projects</span>
     </h2>
     <section
       class="flex flex-col md:flex-row flex-wrap md:gap-8 items-center md:justify-center"

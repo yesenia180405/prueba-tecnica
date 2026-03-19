@@ -36,8 +36,8 @@ const rrss = [
         class="md:text-right md:mr-10 my-5 mx-5 md:text-base"
         aria-label="Creative Commons"
       >
-        © <span class="md:hidden lg:inline">2026 Yesenia Toro. </span>Todos los
-        derechos reservados.
+        © <span class="md:hidden lg:inline">2026 Yesenia Toro. </span> All
+        rights reserved
       </p>
     </section>
   </footer>

@@ -30,11 +30,11 @@ const contact = [
       aria-label="¿Tienes un Proyecto?"
       class="pt-28 font-bold text-5xl flex md:flex-row flex-col gap-5"
     >
-      <span class="text-project-text">¿Tienes un </span>
-      <span class="text-hero-last"> Proyecto?</span>
+      <span class="text-project-text">¿Got a</span>
+      <span class="text-hero-last"> Project?</span>
     </h2>
     <p class="pt-7 text-xl pb-14 text-about-text">
-      Estoy interesada en colaborar o formar parte de tu equipo.
+      I’m interested in collaborating with you or joining your team.
     </p>
 
     <section

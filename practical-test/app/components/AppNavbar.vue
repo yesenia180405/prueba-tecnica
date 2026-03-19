@@ -1,18 +1,18 @@
 <script setup>
 const menu = ref(false)
 const links = [
-  { to: '#hero', label: 'INICIO' },
-  { to: '#about', label: 'SOBRE MÍ' },
-  { to: '#projects', label: 'PROYECTOS' },
-  { to: '#contact', label: 'CONTACTO' },
+  { to: '#hero', label: 'HOME' },
+  { to: '#about', label: 'ABOUT ME' },
+  { to: '#projects', label: 'PROJECTS' },
+  { to: '#contact', label: 'CONTACT' },
 ]
 </script>
 <template>
   <nav
     class="text-white flex items-center justify-between bg-home-navbar w-full fixed tracking-widest px-6 md:px-20 lg:px-40 z-50"
-    aria-label="Página de inicio"
+    aria-label="Home Page"
   >
-    <NuxtLink to="/" aria-label="Inicio">
+    <NuxtLink to="/" aria-label="Home">
       <img
         src="https://images.vexels.com/media/users/3/135535/isolated/preview/b79e409078ebfbc02e8615b2ed5938c6-icono-de-mariposa.png?w=360"
         alt="icon"

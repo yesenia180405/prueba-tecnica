@@ -28,7 +28,7 @@ const submit = async () => {
       class="flex flex-col md:grid md:grid-cols-2 gap-7 text-left"
     >
       <div class="flex flex-col">
-        <h3 class="font-semibold pb-3 text-sm text-project-text">NOMBRE</h3>
+        <h3 class="font-semibold pb-3 text-sm text-project-text">NAME</h3>
         <input
           v-model="form.name"
           placeholder="John Doe"
@@ -49,11 +49,11 @@ const submit = async () => {
       </div>
 
       <div class="md:col-span-2 flex flex-col">
-        <h3 class="font-semibold pb-3 text-sm text-project-text">MENSAJE</h3>
+        <h3 class="font-semibold pb-3 text-sm text-project-text">MESSAGE</h3>
         <textarea
           v-model="form.message"
           id="message"
-          placeholder="Tu idea..."
+          placeholder="Your idea..."
           required
           class="p-3 pb-16 rounded-lg placeholder:text-form-text border focus:border-hero-last focus:outline-none focus:border-2"
         ></textarea>
@@ -64,11 +64,11 @@ const submit = async () => {
         :disabled="loading"
         styles="w-full rounded-lg bg-purple-500 md:col-span-2 p-4"
       >
-        {{ loading ? 'Enviando...' : 'Enviar' }}
+        {{ loading ? 'Sending...' : 'Send' }}
       </AppButton>
 
-      <p v-if="success" class="text-purple-900">¡Mensaje enviado!</p>
-      <p v-if="error" class="text-red-800">Error al enviar</p>
+      <p v-if="success" class="text-purple-900">¡Message sent!</p>
+      <p v-if="error" class="text-red-800">Error sending</p>
     </form>
   </section>
 </template>
