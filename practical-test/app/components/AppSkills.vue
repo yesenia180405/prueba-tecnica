@@ -31,7 +31,7 @@ const skills = [
       class="tracking-wider font-semibold text-project-text pt-16 pb-10"
       aria-label="Stack Tecnológico"
     >
-      STACK TECNOLÓGICO
+      TECHNOLOGY STACK
     </h2>
     <div class="grid grid-cols-2 md:grid-cols-6 sm:grid-cols-3 gap-8 mx-6">
       <AppCardSkill
