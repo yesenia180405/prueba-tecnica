@@ -1,32 +1,5 @@
 <script setup>
-import serena from '../assets/img/serena.png'
-import notasApp from '../assets/img/notasApp.png'
-const proyectos = [
-  {
-    img: serena,
-    tags: ['JavaScript', 'NodeJS', 'Tailwind CSS'],
-    name: 'Serena',
-    description:
-      'A free web-based platform providing psychological support for students, accessible online through digital tools and professional guidance.',
-    link: 'https://proyectoserena.vercel.app/login',
-  },
-  {
-    img: notasApp,
-    tags: ['JavaScript', 'HTML', 'CSS'],
-    name: 'Smart Board',
-    description:
-      'A Single Page Application (SPA) for creating, filtering, and persisting notes and reminders using Web Storage, featuring auxiliary window support and dynamic DOM manipulation.',
-    link: 'https://github.com/Jhonttt/dwec-u3-notasapp-atahona-toro.git',
-  },
-  {
-    img: serena,
-    tags: ['Angular', 'Laravel', 'Bootstrap'],
-    name: 'Project repository',
-    description:
-      'A full-stack platform featuring an admin dashboard, user authentication, deployment on a live server, and database integration, designed to efficiently manage application data.',
-    link: 'https://github.com/Jhonttt/proyecto-intermodular.git',
-  },
-]
+import proyectos from '../assets/data/projects.json'
 </script>
 <template>
   <section
@@ -48,6 +21,7 @@ const proyectos = [
     >
       <AppCard
         v-for="project in proyectos"
+        :key="project.name"
         :img="project.img"
         :tags="project.tags"
         :title="project.name"
