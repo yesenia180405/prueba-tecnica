@@ -7,7 +7,7 @@ const props = defineProps({
 </script>
 <template>
   <section
-    class="bg-card-bg rounded-2xl w-[40vw] gap md:w-[12vw] md:h-[19vh] flex flex-col items-center justify-center text-center group hover:bg-purple-300"
+    class="bg-card-bg rounded-2xl aspect-square gap md:w-[12vw] md:h-[19vh] flex flex-col items-center justify-center text-center group hover:bg-purple-300"
   >
     <a :href="link" target="_blank">
       <component

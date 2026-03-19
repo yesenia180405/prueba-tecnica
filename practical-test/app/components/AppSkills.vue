@@ -1,10 +1,10 @@
 <script setup>
-import java from '../assets/img/java.svg'
-import mysql from '../assets/img/mysql.svg'
-import laravel from '../assets/img/laravel.svg'
-import javascript from '../assets/img/javascript.svg'
-import htmlIcon from '../assets/img/html_.svg'
-import bootstrap from '../assets/img/bootstrap.svg'
+import java from '../assets/icons/java.svg'
+import mysql from '../assets/icons/mysql.svg'
+import laravel from '../assets/icons/laravel.svg'
+import javascript from '../assets/icons/javascript.svg'
+import htmlIcon from '../assets/icons/html_.svg'
+import bootstrap from '../assets/icons/bootstrap.svg'
 const skills = [
   { icono: java, label: 'Java', link: 'https://www.java.com/es/' },
   { icono: mysql, label: 'MySQL', link: 'https://www.mysql.com/' },
@@ -28,12 +28,12 @@ const skills = [
     aria-label="Skills"
   >
     <h2
-      class="tracking-wider font-semibold text-project-text text+center pt-16 sm:pb-10"
+      class="tracking-wider font-semibold text-project-text pt-16 pb-10"
       aria-label="Stack Tecnológico"
     >
       STACK TECNOLÓGICO
     </h2>
-    <div class="grid grid-cols-2 md:grid-cols-6 gap-8">
+    <div class="grid grid-cols-2 md:grid-cols-6 sm:grid-cols-3 gap-8 mx-6">
       <AppCardSkill
         aria-label="Stack Tecnológico"
         v-for="skill in skills"

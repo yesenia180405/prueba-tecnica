@@ -1,10 +1,10 @@
 <script setup>
 const menu = ref(false)
 const links = [
-  { to: '/', label: 'INICIO' },
+  { to: '#hero', label: 'INICIO' },
   { to: '#about', label: 'SOBRE MÍ' },
   { to: '#projects', label: 'PROYECTOS' },
-  { to: '#', label: 'CONTACTO' },
+  { to: '#contact', label: 'CONTACTO' },
 ]
 </script>
 <template>
@@ -36,7 +36,7 @@ const links = [
 
     <!-- Links en móvil -->
     <div class="md:hidden">
-      <button class="text-white text-2xl pr-10" @click="menu = !menu">
+      <button class="text-white text-2xl pr-6" @click="menu = !menu">
         {{ menu ? '✕' : '☰' }}
       </button>
       <ul
