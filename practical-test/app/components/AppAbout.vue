@@ -14,26 +14,26 @@ const skills = [
       <img
         src="../assets/img/foto.jpeg"
         alt="Imagen de perfil"
-        class="w-52 h-68 md:w-[19rem] md:h-[26rem] rounded-2xl shadow-[0_0_54px_rgb(147,51,234)] mt-10"
+        class="w-52 h-68 md:w-[19rem] md:h-[26rem] rounded-2xl shadow-[0_0_58px_rgb(168,85,247)] hover:shadow-[0_0_59px_rgb(147,51,234)] mt-10"
       />
       <section class="mt-5 md:px-8 px-16 md:w-[56vw] flex flex-col">
         <h2
           class="text-3xl font-semibold pb-7 text-center md:text-left"
           aria-label="Uniendo Diseño y Código"
         >
-          <span class="text-project-text">Uniendo </span>
-          <span class="text-button-hover"> Diseño </span>
-          <span class="text-hero-bg"> y</span>
-          <span class="text-hero-last"> Código </span>
+          <span class="text-project-text">Integrating </span>
+          <span class="text-button-hover"> Code </span>
+          <span class="text-hero-bg"> and </span>
+          <span class="text-hero-last"> Design </span>
         </h2>
 
         <p class="text-lg text-about-text" aria-label="Sobre mí">
-          Con 3 años desarrollando proyectos académicos y personales, he
-          construido una base sólida tanto en frontend como en backend. Me
-          apasiona diseñar interfaces que enamoran a primera vista y explorar la
-          lógica que hay detrás de cada aplicación. Cada proyecto, sin importar
-          su escala, lo afronto con curiosidad, precisión y ganas de seguir
-          creciendo.
+          With 3 years of experience developing academic and personal projects,
+          I have built a solid foundation in both frontend and backend. I’m
+          passionate about designing interfaces that captivate at first glance
+          and exploring the logic behind every application. I approach each
+          project, regardless of its scale, with curiosity, precision, and a
+          strong desire to keep growing.
         </p>
 
         <div class="flex md:flex-row flex-wrap gap-3 mt-4 w-full">
