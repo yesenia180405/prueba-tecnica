@@ -15,7 +15,7 @@ onMounted(async () => {
       class="flex flex-col md:grid md:grid-cols-3 items-center md:mr-28 md:ml-28"
     >
       <img
-        src="https://images.vexels.com/media/users/3/135535/isolated/preview/b79e409078ebfbc02e8615b2ed5938c6-icono-de-mariposa.png?w=360"
+        src="../assets/img/mariposa.webp"
         alt="icon"
         height="80"
         width="80"
