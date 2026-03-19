@@ -17,7 +17,7 @@
     </h1>
 
     <p
-      class="text-[rgb(199,189,215)] text-2xl my-9 w-[55vw]"
+      class="text-[rgb(199,189,215)] md:text-2xl text-lg my-9 mx-10 md:w-[55vw]"
       aria-label="Descripción"
     >
       Desarrolladora web apasionada por el frontend y el backend, en constante

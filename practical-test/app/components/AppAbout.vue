@@ -28,9 +28,12 @@ const skills = [
         </h2>
 
         <p class="text-lg text-about-text" aria-label="Sobre mí">
-          Con más de 5 años de experiencia, transformo ideas complejas en
-          interfaces intuitivas y arquitecturas robustas. Me apasiona el
-          minimalismo, el rendimiento y la atención obsesiva al detalle.
+          Con 3 años desarrollando proyectos académicos y personales, he
+          construido una base sólida tanto en frontend como en backend. Me
+          apasiona diseñar interfaces que enamoran a primera vista y explorar la
+          lógica que hay detrás de cada aplicación. Cada proyecto, sin importar
+          su escala, lo afronto con curiosidad, precisión y ganas de seguir
+          creciendo.
         </p>
 
         <div class="flex md:flex-row flex-wrap gap-3 mt-4 w-full">
