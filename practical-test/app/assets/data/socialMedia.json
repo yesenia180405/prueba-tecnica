@@ -1,4 +1,3 @@
-
 {
   "contact": [
     {
@@ -16,8 +15,14 @@
       "descripcion": "GitHub",
       "link": "https://github.com/yesenia180405"
     }
+  ],
+
+  "footer": [
+    {
+      "icon": "/icons/Instagram.svg",
+      "link": "https://www.instagram.com/yes._.1804?igsh=ZjBkN240ogzOCNq1",
+      "label": "Instragram"
+    },
+    { "icon": "/icons/discord.svg", "link": "https://discord.com/", "label": "Discord" }
   ]
-
-
-
 }

@@ -36,6 +36,7 @@ onMounted(async () => {
             <div
               v-html="svgContents[info.icon]"
               class="h-8 w-8 text-link-text [&>svg]:h-full [&>svg]:w-full [&>svg]:fill-current"
+              aria-label="Redes sociales"
             />
           </div>
           <h3
