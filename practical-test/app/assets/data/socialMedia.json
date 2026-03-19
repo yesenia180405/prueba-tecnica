@@ -1,0 +1,28 @@
+{
+  "contact": [
+    {
+      "icon": "/icons/mail.svg",
+      "descripcion": "yes.ale1804@gmail.com",
+      "link": "https://mail.google.com/mail/?view=cm&to=yes.ale1804@gmail.com"
+    },
+    {
+      "icon": "/icons/linkedin.svg",
+      "descripcion": "LinkedIn",
+      "link": "https://www.linkedin.com/in/yeseniatoro"
+    },
+    {
+      "icon": "/icons/github.svg",
+      "descripcion": "GitHub",
+      "link": "https://github.com/yesenia180405"
+    }
+  ],
+
+  "footer": [
+    {
+      "icon": "/icons/Instagram.svg",
+      "link": "https://www.instagram.com/yes._.1804?igsh=ZjBkN240ogzOCNq1",
+      "label": "Instragram"
+    },
+    { "icon": "/icons/discord.svg", "link": "https://discord.com/", "label": "Discord" }
+  ]
+}

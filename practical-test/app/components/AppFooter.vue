@@ -1,15 +1,13 @@
-a
 <script setup>
-import instagram from '../assets/icons/Instagram.svg'
-import discord from '../assets/icons/discord.svg'
-const rrss = [
-  {
-    icon: instagram,
-    link: 'https://www.instagram.com/yes._.1804?igsh=ZjBkN240ogzOCNq1',
-    label: 'Instragram',
-  },
-  { icon: discord, link: 'https://discord.com/', label: 'Discord' },
-]
+import data from '../assets/data/socialMedia.json'
+const rrss = data.footer
+const svgContents = ref([])
+onMounted(async () => {
+  for (const redes of rrss) {
+    const res = await fetch(redes.icon)
+    svgContents.value[redes.icon] = await res.text()
+  }
+})
 </script>
 <template>
   <footer class="bg-footer-b text-footer-text w-full py-4 tracking-wide">
@@ -27,7 +25,10 @@ const rrss = [
       <section class="flex gap-8 items-center justify-center">
         <div v-for="red in rrss" :key="red.label">
           <a :href="red.link" target="_blank">
-            <component :is="red.icon" class="h-8 w-8 [&>*]:fill-current" />
+            <div
+              v-html="svgContents[red.icon]"
+              class="h-8 w-8 [&>svg]:h-full [&>svg]:w-full [&>svg]:fill-current"
+            />
           </a>
         </div>
       </section>
