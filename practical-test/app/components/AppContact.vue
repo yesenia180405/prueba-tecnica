@@ -1,25 +1,13 @@
 <script setup>
-import mail from '../assets/icons/mail.svg'
-import linkedin from '../assets/icons/linkedin.svg'
-import github from '../assets/icons/github.svg'
-
-const contact = [
-  {
-    icon: mail,
-    descripcion: 'yes.ale1804@gmail.com',
-    link: 'https://mail.google.com/mail/?view=cm&to=yes.ale1804@gmail.com',
-  },
-  {
-    icon: linkedin,
-    descripcion: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/yeseniatoro',
-  },
-  {
-    icon: github,
-    descripcion: 'GitHub',
-    link: 'https://github.com/yesenia180405',
-  },
-]
+import data from '../assets/data/socialMedia.json'
+const contact = data.contact
+const svgContents = ref([])
+onMounted(async () => {
+  for (const info of contact) {
+    const res = await fetch(info.icon)
+    svgContents.value[info.icon] = await res.text()
+  }
+})
 </script>
 
 <template>
@@ -45,7 +33,10 @@ const contact = [
           <div
             class="md:h-14 md:w-14 h-12 w-12 flex items-center justify-center border bg-purple-100 rounded-full"
           >
-            <component :is="info.icon" class="h-8 w-8 text-link-text" />
+            <div
+              v-html="svgContents[info.icon]"
+              class="h-8 w-8 text-link-text [&>svg]:h-full [&>svg]:w-full [&>svg]:fill-current"
+            />
           </div>
           <h3
             class="text-sm md:text-base pt-5 text-project-text hidden sm:block md:block"
