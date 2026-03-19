@@ -78,3 +78,12 @@ npm install -D vite-svg-loader
 - Crear cuenta en formspree.io y obtener el endpoint del formulario.
 - Añadir la variable de entorno:
 - Y finalmente implementar.
+
+## Uso de v-htmml
+- En lugar de importar los SVGs como componentes, he hecho un fetch del archivo SVG inyectando su contenido directamente en el HTML con v-html. Esto se llama renderizado inline.
+JSON tiene la ruta → fetch la descarga → v-html la inyecta en el DOM
+
+## Para usar NuxtImg se debe instalar la siguiente dependencia
+```bash
+npm install @nuxt/image
+```
