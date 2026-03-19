@@ -14,12 +14,14 @@ onMounted(async () => {
     <section
       class="flex flex-col md:grid md:grid-cols-3 items-center md:mr-28 md:ml-28"
     >
-      <img
+      <NuxtImg
         src="../assets/img/mariposa.webp"
         alt="icon"
         height="80"
         width="80"
         class="md:ml-10"
+        format="webp"
+        loading="lazy"
       />
 
       <section class="flex gap-8 items-center justify-center">

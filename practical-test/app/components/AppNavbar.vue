@@ -13,11 +13,12 @@ const links = [
     aria-label="Página de inicio"
   >
     <NuxtLink to="/" aria-label="Inicio">
-      <img
-        src="../assets/img/mariposa.webp"
+      <NuxtImg
+        src="/img/mariposa.webp"
         alt="icon"
         height="100"
         width="100"
+        loading="lazy"
       />
     </NuxtLink>
 
