@@ -17,7 +17,7 @@ const skills = data.about
         format="webp"
         loading="lazy"
       />
-      <section class="mt-5 md:px-8 px-16 md:w-[56vw] flex flex-col">
+      <section class="mt-5 md:px-8 md:w-[56vw] flex flex-col">
         <h2
           class="text-3xl font-semibold pb-7 text-center md:text-left"
           aria-label="Uniendo Diseño y Código"
