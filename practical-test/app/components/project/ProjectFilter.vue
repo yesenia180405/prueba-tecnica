@@ -2,7 +2,9 @@
 const filters = useFilter()
 </script>
 <template>
-  <section class="flex rounded-lg overflow-hidden">
+  <section
+    class="flex rounded-lg overflow-hidden justify-center w-full flex-wrap md:text-base text-sm"
+  >
     <button
       v-for="tag in filters.allTags"
       :key="tag"
