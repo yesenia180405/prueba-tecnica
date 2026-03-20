@@ -1,5 +1,5 @@
 <script setup>
-import proyectos from '../../data/projects.json'
+const proyectos = useFilter()
 </script>
 <template>
   <section
@@ -9,7 +9,7 @@ import proyectos from '../../data/projects.json'
 
     <div class="flex gap-8">
       <AppCard
-        v-for="project in proyectos"
+        v-for="project in proyectos.filtered"
         :key="project.name"
         :img="project.img"
         :tags="project.tags"

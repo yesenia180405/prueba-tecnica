@@ -7,7 +7,8 @@ const filters = useFilter()
       v-for="tag in filters.allTags"
       :key="tag"
       @click="filters.selectedTag = tag"
-      class="bg-purple-200 px-8 py-3 hover:bg-purple-300 font-medium mb-8"
+      class="bg-purple-200 px-8 py-3 hover:bg-purple-300 font-medium mb-8 transition-all"
+      :class="filters.selectedTag === tag ? 'bg-purple-300' : ''"
     >
       {{ tag }}
     </button>

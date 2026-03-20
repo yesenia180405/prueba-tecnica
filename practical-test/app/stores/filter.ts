@@ -10,7 +10,7 @@ export const useFilter = defineStore('filter', () => {
   ]) //flatMap, unifica los arrays
 
   const filtered = computed(() => {
-    selectedTag.value === 'All'
+    return selectedTag.value === 'All'
       ? projects
       : projects.filter((p) => p.tags.includes(selectedTag.value))
   })
