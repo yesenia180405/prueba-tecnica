@@ -10,21 +10,23 @@ onMounted(async () => {
 })
 </script>
 <template>
-  <footer class="bg-footer-b text-footer-text w-full py-4 tracking-wide">
+  <footer class="bg-footer-b text-gray-400 w-full py-4 tracking-wide">
     <section
       class="flex flex-col md:grid md:grid-cols-3 items-center md:mr-28 md:ml-28"
     >
-      <img
-        src="https://images.vexels.com/media/users/3/135535/isolated/preview/b79e409078ebfbc02e8615b2ed5938c6-icono-de-mariposa.png?w=360"
+      <NuxtImg
+        src="../assets/img/mariposa.webp"
         alt="icon"
         height="80"
         width="80"
         class="md:ml-10"
+        format="webp"
+        loading="lazy"
       />
 
       <section class="flex gap-8 items-center justify-center">
         <div v-for="red in rrss" :key="red.label">
-          <a :href="red.link" target="_blank">
+          <a :href="red.link" target="_blank" :aria-label="red.label">
             <div
               v-html="svgContents[red.icon]"
               class="h-8 w-8 [&>svg]:h-full [&>svg]:w-full [&>svg]:fill-current"

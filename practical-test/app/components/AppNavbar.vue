@@ -13,11 +13,12 @@ const links = [
     aria-label="Página de inicio"
   >
     <NuxtLink to="/" aria-label="Inicio">
-      <img
-        src="https://images.vexels.com/media/users/3/135535/isolated/preview/b79e409078ebfbc02e8615b2ed5938c6-icono-de-mariposa.png?w=360"
+      <NuxtImg
+        src="/img/mariposa.webp"
         alt="icon"
         height="100"
         width="100"
+        loading="lazy"
       />
     </NuxtLink>
 

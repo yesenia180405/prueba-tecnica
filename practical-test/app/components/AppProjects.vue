@@ -6,7 +6,7 @@ import proyectos from '../data/projects.json'
     class="bg-project-bg min-h-[40vw] md:p-20 p-8 pt-20"
     aria-label="Contenido de los proyectos"
   >
-    <p class="text-button-hover pb-4 font-medium tracking-widest md:pl-28">
+    <p class="text-purple-600 pb-4 font-medium tracking-widest md:pl-28">
       PORTFOLIO
     </p>
     <h2

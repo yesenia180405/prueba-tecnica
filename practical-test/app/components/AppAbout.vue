@@ -7,10 +7,12 @@ const skills = data.about
     class="bg-about-bg min-h-[72vh] flex flex-col md:flex-row gap-10 justify-center items-center w-full pb-9"
   >
     <div class="flex flex-col items-center md:flex-row gap-10 mx-10">
-      <img
+      <NuxtImg
         src="../assets/img/foto.jpeg"
         alt="Imagen de perfil"
         class="w-52 h-68 md:w-[19rem] md:h-[26rem] rounded-2xl shadow-[0_0_58px_rgb(168,85,247)] hover:shadow-[0_0_59px_rgb(147,51,234)] mt-10"
+        format="webp"
+        loading="lazy"
       />
       <section class="mt-5 md:px-8 px-16 md:w-[56vw] flex flex-col">
         <h2
@@ -18,7 +20,7 @@ const skills = data.about
           aria-label="Uniendo Diseño y Código"
         >
           <span class="text-project-text">Integrating </span>
-          <span class="text-button-hover"> Code </span>
+          <span class="text-purple-500"> Code </span>
           <span class="text-hero-bg"> and </span>
           <span class="text-hero-last"> Design </span>
         </h2>

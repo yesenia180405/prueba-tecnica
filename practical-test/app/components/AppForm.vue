@@ -44,7 +44,7 @@ const form = useForm()
       <AppButton
         type="submit"
         :disabled="form.loading"
-        styles="w-full rounded-lg bg-purple-500 md:col-span-2 p-4"
+        styles="w-full rounded-lg bg-purple-700 md:col-span-2 p-4"
       >
         {{ form.loading ? 'Sending...' : 'Send' }}
       </AppButton>
