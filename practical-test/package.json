@@ -11,8 +11,11 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@nuxt/image": "^2.0.0",
     "@nuxtjs/tailwindcss": "^6.14.0",
+    "@pinia/nuxt": "^0.11.3",
     "nuxt": "^4.4.2",
+    "pinia": "^3.0.4",
     "vite-svg-loader": "^5.1.1",
     "vue": "^3.5.30",
     "vue-router": "^5.0.3"
