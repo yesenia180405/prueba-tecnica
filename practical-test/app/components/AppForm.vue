@@ -15,7 +15,7 @@ const form = useForm()
           v-model="form.form.name"
           placeholder="John Doe"
           required
-          class="p-3 rounded-lg w-full placeholder:text-form-text border focus:border-hero-last focus:outline-none focus:border-2"
+          class="p-3 rounded-lg w-full placeholder:text-form-text border focus:ring-hero-last focus:outline-none focus:ring-2"
         />
       </div>
 
@@ -26,7 +26,7 @@ const form = useForm()
           type="email"
           placeholder="john@example.com"
           required
-          class="p-3 rounded-lg w-full placeholder:text-form-text border focus:border-hero-last focus:outline-none focus:border-2"
+          class="p-3 rounded-lg w-full placeholder:text-form-text border focus:ring-hero-last focus:outline-none focus:ring-2"
         />
       </div>
 
@@ -37,7 +37,7 @@ const form = useForm()
           id="message"
           placeholder="Your idea..."
           required
-          class="p-3 pb-16 rounded-lg placeholder:text-form-text border focus:border-hero-last focus:outline-none focus:border-2"
+          class="p-3 pb-16 rounded-lg placeholder:text-form-text border focus:ring-hero-last focus:outline-none focus:ring-2"
         ></textarea>
       </div>
 
