@@ -15,7 +15,7 @@ onMounted(async () => {
       class="flex flex-col md:grid md:grid-cols-3 items-center md:mr-28 md:ml-28"
     >
       <NuxtImg
-        src="../assets/img/mariposa.webp"
+        src="/img/mariposa.webp"
         alt="icon"
         height="80"
         width="80"
