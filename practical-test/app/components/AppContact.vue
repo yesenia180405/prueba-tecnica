@@ -29,7 +29,12 @@ onMounted(async () => {
       class="grid grid-cols-3 md:flex md:justify-around text-center md:w-[50vw] mx-auto"
     >
       <div v-for="info in contact" :key="info" class="px-10 md:px-0">
-        <a :href="info.link" target="_blank" class="flex flex-col items-center">
+        <a
+          :href="info.link"
+          target="_blank"
+          class="flex flex-col items-center"
+          :aria-label="readonly.label"
+        >
           <div
             class="md:h-14 md:w-14 h-12 w-12 flex items-center justify-center border bg-purple-100 rounded-full"
           >

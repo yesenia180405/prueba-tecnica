@@ -10,7 +10,7 @@ onMounted(async () => {
 })
 </script>
 <template>
-  <footer class="bg-footer-b text-footer-text w-full py-4 tracking-wide">
+  <footer class="bg-footer-b text-gray-400 w-full py-4 tracking-wide">
     <section
       class="flex flex-col md:grid md:grid-cols-3 items-center md:mr-28 md:ml-28"
     >

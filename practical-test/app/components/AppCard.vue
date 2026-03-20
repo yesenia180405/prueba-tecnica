@@ -12,12 +12,15 @@ const props = defineProps({
   <section
     class="group flex flex-col border border-gray-200 mb-5 rounded-3xl bg-card-bg md:w-[30em] hover:border-card-underline hover:shadow-[0_0_14px_rgb(215,201,218)] overflow-hidden h-full"
   >
-    <a :href="props.link" target="_blank">
+    <a :href="props.link" target="_blank" :aria-label="props.title">
       <div class="overflow-hidden">
-        <img
+        <NuxtImg
           :src="props.img"
           :alt="props.title"
+          sizes="sm:100vw md:50vw"
           class="h-[17em] w-full rounded-t-3xl object-cover transition-all duration-300 group-hover:scale-110 z-50"
+          loading="lazy"
+          format="webp"
         />
       </div>
       <div class="flex flex-wrap gap-2 px-7 pt-5">
@@ -36,7 +39,7 @@ const props = defineProps({
           {{ props.title }}
         </h2>
         <p class="text-card-text text-lg pb-5">{{ props.description }}</p>
-        <span class="text-link-text font-bold hover:text-project-text">
+        <span class="text-project-text font-bold hover:text-hero-bg">
           Ver más →
         </span>
       </div>

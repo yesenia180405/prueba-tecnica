@@ -13,7 +13,7 @@
       class="text-5xl md:text-7xl lg:text-9xl font-bold flex flex-col"
       aria-label="Yesenia Toro"
     >
-      YESENIA <span class="text-hero-last mt-4">TORO</span>
+      YESENIA <span class="mt-4">TORO</span>
     </h1>
 
     <p

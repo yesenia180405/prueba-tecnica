@@ -20,7 +20,7 @@ const skills = data.about
           aria-label="Uniendo Diseño y Código"
         >
           <span class="text-project-text">Integrating </span>
-          <span class="text-button-hover"> Code </span>
+          <span class="text-purple-500"> Code </span>
           <span class="text-hero-bg"> and </span>
           <span class="text-hero-last"> Design </span>
         </h2>
