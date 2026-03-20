@@ -18,7 +18,9 @@ const props = defineProps({
           :src="props.img"
           :alt="props.title"
           sizes="sm:100vw md:50vw"
-          class="h-[17em] w-full rounded-t-3xl object-cover transition-all duration-300 group-hover:scale-110 z-50"
+          width="526"
+          height="272"
+          class="w-full rounded-t-3xl object-cover transition-all duration-300 group-hover:scale-110 z-50"
           loading="lazy"
           format="webp"
         />

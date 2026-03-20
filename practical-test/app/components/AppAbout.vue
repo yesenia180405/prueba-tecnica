@@ -8,8 +8,11 @@ const skills = data.about
   >
     <div class="flex flex-col items-center md:flex-row gap-10 mx-10">
       <NuxtImg
-        src="../assets/img/foto.jpeg"
+        src="/img/foto.webp"
         alt="Imagen de perfil"
+        width="304"
+        height="416"
+        sizes="sm:208px md:304px"
         class="w-52 h-68 md:w-[19rem] md:h-[26rem] rounded-2xl shadow-[0_0_58px_rgb(168,85,247)] hover:shadow-[0_0_59px_rgb(147,51,234)] mt-10"
         format="webp"
         loading="lazy"
