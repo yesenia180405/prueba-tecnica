@@ -10,7 +10,7 @@ const props = defineProps({
 
 <template>
   <section
-    class="group flex flex-col border border-gray-200 mb-5 rounded-3xl bg-card-bg md:w-[30em] md:h-[42em] hover:border-card-underline hover:shadow-[0_0_14px_rgb(215,201,218)] overflow-hidden"
+    class="group flex flex-col border border-gray-200 mb-5 rounded-3xl bg-card-bg md:w-[30em] hover:border-card-underline hover:shadow-[0_0_14px_rgb(215,201,218)] overflow-hidden"
   >
     <a :href="props.link" target="_blank" :aria-label="props.title">
       <div class="overflow-hidden">
