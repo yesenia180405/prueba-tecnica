@@ -1,10 +1,10 @@
 <script setup>
 const menu = ref(false)
 const links = [
-  { to: '#hero', label: 'INICIO' },
-  { to: '#about', label: 'SOBRE MÍ' },
-  { to: '#projects', label: 'PROYECTOS' },
-  { to: '#contact', label: 'CONTACTO' },
+  { to: '#hero', label: 'HOME' },
+  { to: '#about', label: 'ABOUT ME' },
+  { to: '#projects', label: 'PROJECTS' },
+  { to: '#contact', label: 'CONTACT' },
 ]
 </script>
 <template>
