@@ -10,7 +10,7 @@ const props = defineProps({
   <button
     :type="props.type"
     :disabled="props.disabled"
-    :class="`bg-home-underline text-white font-bold hover:bg-button-hover hover:text-hero-bg rounded ${props.styles} `"
+    :class="` text-white font-bold hover:bg-button-hover hover:text-hero-bg rounded ${props.styles} `"
     aria-label="Botón"
   >
     <slot />

@@ -25,8 +25,11 @@
       functional applications that make a difference.
     </p>
 
-    <AppButton styles="rounded-3xl p-3 px-10 py-4 mt-4">
-      <a href="#projects">View projects</a>
+    <AppButton
+      styles="bg-home-underline rounded-3xl px-10 py-4 mt-4"
+      @click="() => $router.push('#projects')"
+    >
+      View projects
     </AppButton>
   </section>
 </template>

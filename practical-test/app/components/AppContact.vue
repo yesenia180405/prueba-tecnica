@@ -33,7 +33,7 @@ onMounted(async () => {
           :href="info.link"
           target="_blank"
           class="flex flex-col items-center"
-          :aria-label="readonly.label"
+          :aria-label="info.label"
         >
           <div
             class="md:h-14 md:w-14 h-12 w-12 flex items-center justify-center border bg-purple-100 rounded-full"

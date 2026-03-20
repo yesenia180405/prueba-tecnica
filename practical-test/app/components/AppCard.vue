@@ -28,7 +28,7 @@ const props = defineProps({
           v-for="tag in props.tags"
           :key="tag"
           :text="tag"
-          classT="bg-card-tags p-1 rounded mb-5 text-xs text-purple-400"
+          classT="bg-card-tags p-1 rounded mb-5 text-xs text-purple-800"
         />
       </div>
       <div class="md:px-7 md:pb-7 p-6 pb-7 just">

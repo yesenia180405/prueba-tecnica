@@ -26,7 +26,7 @@ onMounted(async () => {
 
       <section class="flex gap-8 items-center justify-center">
         <div v-for="red in rrss" :key="red.label">
-          <a :href="red.link" target="_blank">
+          <a :href="red.link" target="_blank" :aria-label="red.label">
             <div
               v-html="svgContents[red.icon]"
               class="h-8 w-8 [&>svg]:h-full [&>svg]:w-full [&>svg]:fill-current"
