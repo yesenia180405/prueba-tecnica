@@ -2,6 +2,9 @@
 const ProjectAbout = defineAsyncComponent(
   () => import('~/components/project/ProjectAbout.vue')
 )
+definePageMeta({
+  layout:'projects'
+})
 </script>
 
 <template>
