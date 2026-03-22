@@ -1,4 +1,5 @@
-[
+{
+  "featured":[
   {
     "img": "/img/serena.png",
     "tags": ["JavaScript", "NodeJS", "Tailwind CSS"],
@@ -14,10 +15,13 @@
     "link": "https://github.com/Jhonttt/dwec-u3-notasapp-atahona-toro.git"
   },
   {
-    "img": "/img/serena.png",
+    "img": "/img/Repositorios.webp",
     "tags": ["Angular", "Laravel", "Bootstrap"],
     "name": "Project repository",
     "description": "A full-stack platform featuring an admin dashboard, user authentication, deployment on a live server, and database integration, designed to efficiently manage application data.",
     "link": "https://github.com/Jhonttt/proyecto-intermodular.git"
+  }] ,
+  "projects":[
+    
+  ]
   }
-]

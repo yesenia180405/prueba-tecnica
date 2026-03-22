@@ -1,5 +1,6 @@
 <script setup>
-import proyectos from '../data/projects.json'
+import data from '../data/projects.json'
+const proyectos=data.featured;
 </script>
 <template>
   <section
@@ -15,7 +16,7 @@ import proyectos from '../data/projects.json'
     >
       <span class="text-project-text">Featured </span
       ><span class="text-home-underline"> Projects</span>
-    </h2>
+    </h2> 
     <section
       class="flex flex-col md:flex-row flex-wrap md:gap-8 items-center md:justify-center"
     >
