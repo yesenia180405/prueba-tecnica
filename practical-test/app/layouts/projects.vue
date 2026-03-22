@@ -4,4 +4,5 @@
 <template>
   <ProjectNabvar />
   <slot />
+  <AppFooter />
 </template>
