@@ -27,7 +27,7 @@
 
     <AppButton
       styles="bg-home-underline rounded-3xl px-10 py-4 mt-4"
-      @click="() => $router.push('#projects')"
+      @click="() => navigateTo('/projects')"
     >
       View projects
     </AppButton>
