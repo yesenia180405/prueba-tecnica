@@ -54,8 +54,8 @@ mkdir -p assets components composables layouts middleware pages plugins public s
 
 ## 📬 Contacto
 
-- GitHub: [@tu-usuario](https://github.com/tu-usuario)
-- LinkedIn: [Tu Nombre](https://linkedin.com/in/tu-perfil)
+- GitHub: yesenia180405 (https://github.com/yesenia180405)
+- LinkedIn:Yesenia Toro (https://www.linkedin.com/in/yeseniatoro)
 
 ## Medidas de interes en Tailwind
 
