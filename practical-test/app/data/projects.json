@@ -28,14 +28,14 @@
       "tags": ["CSS", "HTML"],
       "name": "Project Hub",
       "description": "Responsive landing page for local services using Grid, Flexbox, Sass, theming, and WCAG AA.",
-      "link": "https://github.com/Jhonttt/proyecto-intermodular.git"
+      "link": "https://github.com/Jhonttt/diw-u2-localhub-atahona-toro"
     },
     {
       "img": "/img/presupuestador.webp",
       "tags": ["CSS", "HTML","JavaScript"],
       "name": "Print Shop Estimator",
       "description": "Lightweight JS print pricing tool with duplex, binding, discounts, and accurate integer calculations.",
-      "link": "https://github.com/Jhonttt/proyecto-intermodular.git"
+      "link": "https://github.com/Jhonttt/presupuestador-de-copisteria"
     }
   ]
 }
