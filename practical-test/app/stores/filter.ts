@@ -1,6 +1,6 @@
 import { defineStore } from 'pinia'
 import data from '../data/projects.json'
-const projects=data.featured;
+const projects = [...data.featured, ...data.projects]
 export const useFilter = defineStore('filter', () => {
   const selectedTag = ref('All')
 
