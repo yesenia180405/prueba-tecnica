@@ -18,5 +18,8 @@ const proyectos = useFilter()
         :link="project.link"
       />
     </div>
+    <NuxtLink to="/" class="  font-bold bg-button-hover p-2 hover:bg-purple-400 rounded-lg text-project-text ">
+       Go to home →
+     </NuxtLink>
   </section>
 </template>
