@@ -7,7 +7,7 @@ Portfolio personal desarrollado como prueba técnica frontend, construido con **
 - [Nuxt.js](https://nuxt.com/) — Framework SSR/SPA
 - [Vue.js 3](https://vuejs.org/) — Framework UI con Composition API
 - [TypeScript](https://www.typescriptlang.org/) — Tipado estático
-- CSS3 — Estilos personalizados con variables y animaciones
+- Tailwind — Estilos personalizados con variables y animaciones
 
 ## 📋 Descripción
 
