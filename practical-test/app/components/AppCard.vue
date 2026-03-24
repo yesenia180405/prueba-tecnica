@@ -42,7 +42,7 @@ const props = defineProps({
         </h2>
         <p class="text-card-text text-lg pb-5">{{ props.description }}</p>
         <span class="text-project-text font-bold hover:text-hero-bg">
-          Ver más →
+          See More →
         </span>
       </div>
     </a>

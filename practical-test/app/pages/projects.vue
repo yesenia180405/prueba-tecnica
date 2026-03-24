@@ -9,5 +9,5 @@ definePageMeta({
 
 <template>
   <ProjectHero />
-  <ProjectAbout />
+  <ProjectAbout /> 
 </template>
